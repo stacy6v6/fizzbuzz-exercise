@@ -1,0 +1,43 @@
+{
+    "env": {
+        "es2021": true,
+        "node": true
+    },
+    "extends": "airbnb-base",
+    "plugins": [
+        "jest"
+    ],
+    "overrides": [],
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "semi": [
+            "error",
+            "never"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-console": "off",
+        "indent": [
+            "error",
+            2
+        ],
+        "import/extensions": [
+            "error",
+            "ignorePackages"
+        ],
+        "comma-dangle": [
+            "error",
+            "always-multiline"
+        ],
+        "jest/no-disabled-tests": "warn",
+        "jest/no-focused-tests": "error",
+        "jest/no-identical-title": "error",
+        "jest/prefer-to-have-length": "warn",
+        "jest/valid-expect": "error"
+    }
+}
